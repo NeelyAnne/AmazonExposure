@@ -13,11 +13,13 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class AmazonConfig {
 
+    HideKey object = new HideKey();
+
     @Bean
     public AmazonS3 s3() {
         AWSCredentials awsCredentials = new BasicAWSCredentials(
-                "AKIAI5UIGAM5XEQQZMTA",
-                "hTviBr+oVNV5jkFrOFvDgKVyxkoOToCGi6QWf91c"
+                object.getPublicKey(),
+                object.getPrivateKey()
         );
         return AmazonS3ClientBuilder
                 .standard()
