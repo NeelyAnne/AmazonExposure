@@ -13,7 +13,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class AmazonConfig {
 
-    HideKey object = new HideKey();
+    HiddenKey object = new HiddenKey();
 
     @Bean
     public AmazonS3 s3() {

@@ -1,10 +1,10 @@
 package com.talentpath.awsimageupload.config;
 
-public class HideKey {
+public class HiddenKey {
     private String publicKey;
     private String privateKey;
 
-    public HideKey() {
+    public HiddenKey() {
         this.publicKey = "AKIAI5UIGAM5XEQQZMTA";
         this.privateKey = "hTviBr+oVNV5jkFrOFvDgKVyxkoOToCGi6QWf91c";
     }
