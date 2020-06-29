@@ -31,4 +31,4 @@ build/
 .vscode/
 
 ### AWS KEY ###
-/src/main/java/com/talentpath/awsimageupload/config/HideKey.java/
+/src/main/java/com/talentpath/awsimageupload/config/
